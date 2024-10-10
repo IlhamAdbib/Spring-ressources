@@ -1,0 +1,964 @@
+10-Oct-2024 20:25:50.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.0.27
+10-Oct-2024 20:25:50.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 3 2022 14:18:31 UTC
+10-Oct-2024 20:25:50.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.0.27.0
+10-Oct-2024 20:25:50.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:25:50.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:25:50.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:25:50.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:25:50.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:25:50.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:25:50.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:25:50.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:25:50.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:25:50.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:25:50.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:25:50.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:25:50.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:25:50.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:25:50.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:25:50.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:25:50.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:25:50.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:25:50.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59500:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:25:50.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:25:50.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:25:50.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:25:50.123 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:25:50.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:25:50.835 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1192)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1205)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:583)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 11 more
+10-Oct-2024 20:25:50.837 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1250] millisecondes
+10-Oct-2024 20:25:50.932 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:25:50.932 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.0.27]
+10-Oct-2024 20:25:50.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:25:50.982 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:25:51.056 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@b86de0d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 39 more
+10-Oct-2024 20:25:51.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [120] ms
+10-Oct-2024 20:25:51.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:25:51.401 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Version [6.0] inconnue, utilisation de la version par défaut
+10-Oct-2024 20:25:53.214 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:25:53.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 270] ms
+10-Oct-2024 20:25:53.359 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2519] millisecondes
+10-Oct-2024 20:27:33.521 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/hello]
+10-Oct-2024 20:27:33.544 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:27:33.602 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1757)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@14ae5a6d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 28 more
+10-Oct-2024 20:27:33.612 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [67] ms
+10-Oct-2024 20:28:00.926 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Oct-2024 20:28:00.927 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:28:00.949 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:28:00.950 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:28:04.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.0.27
+10-Oct-2024 20:28:04.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 3 2022 14:18:31 UTC
+10-Oct-2024 20:28:04.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.0.27.0
+10-Oct-2024 20:28:04.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:28:04.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:28:04.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:28:04.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:28:04.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:28:04.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:28:04.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:28:04.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:28:04.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:28:04.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:28:04.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:28:04.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59530:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:28:04.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:28:04.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:28:04.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:28:04.370 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:28:05.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:28:05.086 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1192)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1205)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:583)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 11 more
+10-Oct-2024 20:28:05.088 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1222] millisecondes
+10-Oct-2024 20:28:05.187 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:28:05.187 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.0.27]
+10-Oct-2024 20:28:05.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:28:05.245 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:28:05.320 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@4808bc9b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 39 more
+10-Oct-2024 20:28:05.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [115] ms
+10-Oct-2024 20:28:05.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:28:05.686 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Version [6.0] inconnue, utilisation de la version par défaut
+10-Oct-2024 20:28:07.824 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:28:08.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 673] ms
+10-Oct-2024 20:28:08.023 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2932] millisecondes
+10-Oct-2024 20:29:08.113 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/hello]
+10-Oct-2024 20:29:08.131 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:29:08.156 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1757)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@498cb9f5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 28 more
+10-Oct-2024 20:29:08.162 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [30] ms
+10-Oct-2024 20:29:09.672 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Oct-2024 20:29:09.672 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:29:09.700 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:29:09.701 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:29:14.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.0.27
+10-Oct-2024 20:29:14.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 3 2022 14:18:31 UTC
+10-Oct-2024 20:29:14.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.0.27.0
+10-Oct-2024 20:29:14.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:29:14.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:29:14.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:29:14.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:29:14.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:29:14.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:29:14.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:29:14.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:29:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:29:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:29:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:29:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:29:14.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:29:14.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59536:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:29:14.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:29:14.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:29:14.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:29:14.176 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:29:14.916 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:29:14.935 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1192)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1205)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:583)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 11 more
+10-Oct-2024 20:29:14.937 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1308] millisecondes
+10-Oct-2024 20:29:15.048 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:29:15.050 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.0.27]
+10-Oct-2024 20:29:15.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:29:15.103 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:29:15.191 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@747f281]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 39 more
+10-Oct-2024 20:29:15.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [129] ms
+10-Oct-2024 20:29:15.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:29:15.574 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Version [6.0] inconnue, utilisation de la version par défaut
+10-Oct-2024 20:29:17.799 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:29:17.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 750] ms
+10-Oct-2024 20:29:17.970 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3030] millisecondes
+10-Oct-2024 20:33:00.776 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Oct-2024 20:33:00.777 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:33:00.814 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:33:00.816 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:33:06.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.0.27
+10-Oct-2024 20:33:06.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Oct 3 2022 14:18:31 UTC
+10-Oct-2024 20:33:06.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.0.27.0
+10-Oct-2024 20:33:06.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:33:06.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:33:06.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:33:06.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:33:06.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:33:06.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:33:06.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:33:06.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:33:06.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:33:06.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:33:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:33:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:33:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:33:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19\apache-tomcat-10.0.27
+10-Oct-2024 20:33:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:33:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:33:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:33:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:33:06.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59568:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:33:06.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:33:06.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:33:06.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:33:06.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:33:06.797 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:33:06.814 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1192)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1205)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:583)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 11 more
+10-Oct-2024 20:33:06.816 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1247] millisecondes
+10-Oct-2024 20:33:06.914 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:33:06.914 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.0.27]
+10-Oct-2024 20:33:06.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:33:06.966 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:33:07.051 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@1169afe1]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] est invalide
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 39 more
+10-Oct-2024 20:33:07.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [124] ms
+10-Oct-2024 20:33:07.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:33:07.450 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Version [6.0] inconnue, utilisation de la version par défaut
+10-Oct-2024 20:33:09.493 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:33:09.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 569] ms
+10-Oct-2024 20:33:09.646 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2828] millisecondes
+10-Oct-2024 20:34:23.034 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Oct-2024 20:34:23.035 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:34:23.070 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:34:23.071 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:34:27.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.19
+10-Oct-2024 20:34:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 19:36:50 UTC
+10-Oct-2024 20:34:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.19.0
+10-Oct-2024 20:34:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:34:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:34:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:34:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:34:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:34:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:34:27.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:34:27.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:34:27.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:34:27.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:34:27.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:34:27.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:34:27.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59571:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:34:27.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:34:27.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:34:27.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:34:27.389 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:34:27.983 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:34:28.005 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Echec d'initialisation du composant [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: L'initialisation du gestionnaire de protocole a échoué
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1017)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1282)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1295)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+10-Oct-2024 20:34:28.007 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1145] millisecondes
+10-Oct-2024 20:34:28.110 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:34:28.110 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.19]
+10-Oct-2024 20:34:28.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:34:28.351 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:34:28.418 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@658c5a19]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4551)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4684)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+10-Oct-2024 20:34:28.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [294] ms
+10-Oct-2024 20:34:28.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:34:30.725 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:34:30.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 430] ms
+10-Oct-2024 20:34:30.873 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2862] millisecondes
+10-Oct-2024 20:34:50.396 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+10-Oct-2024 20:34:50.396 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:34:50.425 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:34:50.427 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+10-Oct-2024 20:35:09.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.19
+10-Oct-2024 20:35:09.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 19:36:50 UTC
+10-Oct-2024 20:35:09.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.19.0
+10-Oct-2024 20:35:09.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:35:09.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:35:09.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:35:09.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:35:09.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:35:09.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:35:09.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:35:09.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:35:09.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:35:09.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:35:09.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:35:09.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:35:09.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:35:09.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:35:09.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:35:09.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:35:09.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:35:09.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:35:09.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59576:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:35:09.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:35:09.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:35:09.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:35:09.436 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:35:10.045 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:35:10.085 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1160] millisecondes
+10-Oct-2024 20:35:10.190 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:35:10.191 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.19]
+10-Oct-2024 20:35:10.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:35:10.412 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:35:10.481 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@27d5a580]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4551)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4684)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+10-Oct-2024 20:35:10.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [277] ms
+10-Oct-2024 20:35:10.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:35:12.896 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:35:13.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 511] ms
+10-Oct-2024 20:35:13.016 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:35:13.054 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2966] millisecondes
+10-Oct-2024 20:37:54.293 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8082"] est mis en pause
+10-Oct-2024 20:37:54.301 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:37:54.328 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:37:54.342 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:37:58.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.19
+10-Oct-2024 20:37:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 19:36:50 UTC
+10-Oct-2024 20:37:58.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.19.0
+10-Oct-2024 20:37:58.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:37:58.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:37:58.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:37:58.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:37:58.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:37:58.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:37:58.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:37:58.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:37:58.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:37:58.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:37:58.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:37:58.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:37:58.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:37:58.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:37:58.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:37:58.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:37:58.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:37:58.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:37:58.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59737:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:37:58.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:37:58.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:37:58.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:37:58.884 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:37:59.721 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:37:59.759 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1464] millisecondes
+10-Oct-2024 20:37:59.877 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:37:59.878 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.19]
+10-Oct-2024 20:37:59.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:38:00.168 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:38:00.244 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@4e31276e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4551)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4684)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+10-Oct-2024 20:38:00.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [352] ms
+10-Oct-2024 20:38:00.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:38:04.280 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:38:04.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [4 144] ms
+10-Oct-2024 20:38:04.430 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:38:04.558 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4795] millisecondes
+10-Oct-2024 20:38:50.015 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8082"] est mis en pause
+10-Oct-2024 20:38:50.019 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:38:50.033 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:38:50.047 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:39:06.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.19
+10-Oct-2024 20:39:06.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 19:36:50 UTC
+10-Oct-2024 20:39:06.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.19.0
+10-Oct-2024 20:39:06.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+10-Oct-2024 20:39:06.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+10-Oct-2024 20:39:06.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+10-Oct-2024 20:39:06.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1
+10-Oct-2024 20:39:06.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      22.0.1+8-16
+10-Oct-2024 20:39:06.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+10-Oct-2024 20:39:06.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:39:06.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:39:06.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2024 20:39:06.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2024 20:39:06.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2024 20:39:06.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2024 20:39:06.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2024 20:39:06.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\PC DOCTOR\Documents\tomcat\apache-tomcat-10.1.19
+10-Oct-2024 20:39:06.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\PC DOCTOR\Documents\SpringVCC
+10-Oct-2024 20:39:06.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\PC DOCTOR\Documents\SpringVCC\temp
+10-Oct-2024 20:39:06.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\PC DOCTOR\Documents\SpringVCC\conf\logging.properties
+10-Oct-2024 20:39:06.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2024 20:39:06.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\lib\idea_rt.jar=59743:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin
+10-Oct-2024 20:39:06.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+10-Oct-2024 20:39:06.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+10-Oct-2024 20:39:06.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+10-Oct-2024 20:39:06.469 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\PC DOCTOR\.jdks\openjdk-22.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\PC DOCTOR\.cargo\bin;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Python313\;C:\Users\PC DOCTOR\AppData\Local\Programs\Python\Launcher\;C:\Users\PC DOCTOR\AppData\Local\Microsoft\WindowsApps;C:\Users\PC DOCTOR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC DOCTOR\AppData\Roaming\Composer\vendor\bin;C:\Users\PC DOCTOR\Downloads\jdk-17.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin;;C:\Users\PC DOCTOR\AppData\Roaming\npm;C:\Users\PC DOCTOR\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+10-Oct-2024 20:39:07.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:39:07.139 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1230] millisecondes
+10-Oct-2024 20:39:07.249 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Oct-2024 20:39:07.249 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.19]
+10-Oct-2024 20:39:07.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+10-Oct-2024 20:39:07.461 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor L'attribut path avec la valeur [/hello] dans le descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a été ignoré
+10-Oct-2024 20:39:07.524 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Erreur lors du déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml]
+	java.lang.IllegalStateException: Erreur lors du démarrage du conteneur fils
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@27d5a580]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4551)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4684)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\PC DOCTOR\Documents\NetBeansProjects\hello\build\web] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+10-Oct-2024 20:39:07.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\hello.xml] a pris [265] ms
+10-Oct-2024 20:39:07.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml]
+10-Oct-2024 20:39:10.201 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+10-Oct-2024 20:39:10.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\PC DOCTOR\Documents\SpringVCC\conf\Catalina\localhost\SpringVCC.xml] a pris [2 842] ms
+10-Oct-2024 20:39:10.399 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:39:10.487 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3343] millisecondes
+10-Oct-2024 20:39:36.135 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8082"] est mis en pause
+10-Oct-2024 20:39:36.140 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+10-Oct-2024 20:39:36.162 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8082"]
+10-Oct-2024 20:39:36.177 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8082"]
